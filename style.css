@@ -2,13 +2,20 @@ html{
 background-color: black;
 
 }
+
+body{
+    color: green;
+    font-family: 'JetBrains Mono', monospace;
+}
 .border{
   background-color: rgb(1, 1, 17);
-  padding: 60px 60px 0px 60px;
+  padding: 20px 20px 0px 60px;
   border-color: rgb(10, 77, 46);
   border-style: solid;
   max-width: 960px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 600px) {
@@ -31,30 +38,14 @@ img {
   
 }
 
-.header {
+.profile {
   float: none;
-  display: inline;
+  display: inline-block;
    line-height : 8px;
   padding-top: 50px;
    
 }
 
-/*.header a:hover {
-    background-color: #FF8C00;
-    color: black;
-    font-weight: 900;
-    border-radius: 2px;
-  }
-  .header ul.active {
-    background-color: dodgerblue;
-    color: white;
-  }*/
-
-body{
-  
-    color: green;
-    font-family: 'JetBrains Mono', monospace;
-}
 #skills-sec{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -81,7 +72,7 @@ body{
 
 }
 #about-me div{
-  padding-top: 100px;
+  padding-top: 10px;
  
 }
 
