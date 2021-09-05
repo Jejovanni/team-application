@@ -1,1 +1,1 @@
-alert("Hi, I'm Jamaine Ekong");
+console.log("Hi, I'm Jamaine Ekong");

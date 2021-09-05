@@ -1,16 +1,14 @@
 html{
 background-color: black;
 
-
 }
-.container{
+.border{
   background-color: rgb(1, 1, 17);
   padding: 60px 60px 0px 60px;
   border-color: rgb(10, 77, 46);
   border-style: solid;
-  margin-top:50px;
-  margin-right: 50px;
-  margin-left: 50px;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 600px) {
@@ -37,7 +35,6 @@ img {
   float: none;
   display: inline;
    line-height : 8px;
-   padding-right: 720px;
   padding-top: 50px;
    
 }
@@ -96,13 +93,10 @@ body{
 .footer{
     font-family: 'JetBrains Mono', monospace;  
     text-align: right;
-    margin-left: -27px;
-    margin-right: 5px;
     margin-top: 100px;
     height: 30px;
 }
 #footer2{
   background-color: cadetblue;
-  margin-right: -60px;
-  margin-left: -60px;
+ 
 }
