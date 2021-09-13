@@ -5,7 +5,10 @@ background-color: black;
 
 body{
     color: green;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'TheGoodMonolith', sans-serif;
+    font-size: x-large;
+    font-weight: lighter;
+    line-height: 2em;
 }
 .border{
   background-color: rgb(1, 1, 17);
@@ -79,6 +82,17 @@ img {
 #about-me{
   padding-top: 20px;
   
+}
+
+@keyframes contact {
+  from {color: blue;}
+  to {color: yellow;}
+}
+.contact {
+  color: green;
+  animation-name: contact;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 .footer{
