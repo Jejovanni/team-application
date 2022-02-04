@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html{
 background-color: black;
 
@@ -5,7 +11,7 @@ background-color: black;
 
 body{
     color: green;
-    font-family: 'TheGoodMonolith', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
     font-size: x-large;
     font-weight: lighter;
     line-height: 2em;
